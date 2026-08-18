@@ -13,6 +13,29 @@
 - [ ] Support FLUX.1-dev image generation model
 - [ ] Support more visual generation models
 
+## 📦Installation
+
+In this project, we use [uv](https://github.com/astral-sh/uv) for package management.
+
+1. **Clone this repository and navigate to the TeaCache folder:**
+
+```
+git clone https://github.com/Aporifold/TeaCache.git
+cd TeaCache
+```
+
+2. **Install the inference package:**
+
+```
+uv sync
+```
+
+3. **(Optional) Install the benchmark extra dependencies**, required only for the evaluation scripts in `eval/`:
+
+```
+uv sync --extra eval
+```
+
 ## 👏Acknowledgement
 
 This project is built upon official implementation of [TeaCache](https://github.com/ali-vilab/TeaCache) and [diffusers](https://github.com/huggingface/diffusers). Thanks for their excellent work!
